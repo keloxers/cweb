@@ -1,0 +1,7 @@
+crear un Seeder
+
+php artisan make:seeder PermissionsTableSeeder
+php artisan make:seeder UsersTableSeeder
+php artisan make:seeder RolesTableSeeder
+
+php artisan migrate:refres --seed
